@@ -172,3 +172,13 @@
 	word-break: normal !important;
     overflow-wrap: break-word !important;
 }
+
+/* Reduce spacing before lists after paragraphs */
+.md-typeset p + ul, p + ol {
+  margin-top: -0.8em !important;
+}
+/* Reduce vertical spacing between nested list items */
+.md-typeset li ul, .md-typeset li ol {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
