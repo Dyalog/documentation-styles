@@ -5,6 +5,8 @@
 
 .example {
     font-variant-caps: all-small-caps;
+    font-size: 1em!important;
+    font-weight: 500!important;
 }
 
 .language-APL, .language-apl {
