@@ -182,3 +182,11 @@
   margin-top: 0!important;
   margin-bottom: 0!important;
 }
+
+kbd {
+  box-shadow: none!important;
+  border: solid 1px grey;
+  vertical-align: unset!important;
+  font-family: inherit;
+  font-size: 80%;
+}
