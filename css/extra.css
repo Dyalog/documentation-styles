@@ -185,7 +185,7 @@
 
 kbd {
   box-shadow: none!important;
-  border: solid 1px grey;
+  border: solid 1px #CCCCCC;
   vertical-align: unset!important;
   font-family: inherit;
   font-size: 80%;
