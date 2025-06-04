@@ -47,6 +47,7 @@ code, .command, .Dyalog {
     --md-primary-fg-color--dark: #563336;
     --md-default-bg-color: #F8F8F8;
     --md-code-hl-number-color: #797979;
+    --dyalog-body-text-color: #232222;
 }
 
 /* Reduce vertical table spacing, and put in a faint cell border */

@@ -190,3 +190,11 @@ kbd {
   font-family: inherit;
   font-size: 80%;
 }
+
+body {
+  color: var(--dyalog-body-text-color);
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  color: var(--dyalog-body-text-color);
+}
