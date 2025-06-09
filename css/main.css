@@ -102,6 +102,14 @@ th, td {
     font-family: APL;
 }
 
+/* List styles */
+.md-typeset li ul li {
+  list-style: circle;
+}
+.md-typeset li ul li ul li {
+  list-style: square;
+}
+
 /* Compress lists a bit vertcially */
 li {
     margin-bottom: 0px !important; 
