@@ -26,11 +26,13 @@ body {
     font-weight: 500!important;
 }
 
-.language-APL, .language-apl {
+.language-APL pre code, .language-apl pre code {
     font-family: APL !important;
     line-height: 1.2em !important;
 }
-.language-nonAPL, .language-nonapl {
+.language-nonAPL, .language-nonapl,
+div:not(.language-apl) pre code, div:not(.language-APL) pre code {
+    /* language-nonAPL is used when highlighting is turned off or when using JavaScript highlighters. The pymdownx highlighter requires specifying non APL code blocks. */
     font-family: 'Courier New', Courier, monospace;
 }
 
