@@ -132,7 +132,7 @@
     border-collapse: collapse;
     width: 85%; 
     margin: auto;
-    font-size: .64rem;
+    /* font-size: .64rem; */
 }
 .table-bordered th,
 .table-bordered td {

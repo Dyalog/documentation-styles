@@ -61,7 +61,12 @@ body {
 
 /* Reduce vertical table spacing, and put in a faint cell border */
 table {
+    border: none;
     border-collapse: collapse;
+    font-size: 1em;
+}
+caption {
+    text-wrap: none;
 }
 
 th, td {
