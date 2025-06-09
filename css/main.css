@@ -168,7 +168,7 @@ hr+pre>code {
 
   /* Generic */
 .md-typeset .admonition {
-	border-width: 0 0 0 3px;
+	border-width: 0 0 0 4px;
     border-radius: 0;
     box-shadow: none;
     font-size: inherit;
