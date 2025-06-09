@@ -3,6 +3,23 @@
     src: local("APL385 Unicode"), url("../fonts/APL385/apl385.ttf");
 }
 
+/* Custom colors */
+:root {
+    --md-primary-fg-color: #FF6A13;
+    --md-primary-fg-color--dark: #563336;
+    --md-default-bg-color: white;
+    --md-code-hl-number-color: #797979;
+    --dyalog-body-text-color: #232222;
+}
+
+body {
+  color: var(--dyalog-body-text-color);
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  color: var(--dyalog-body-text-color);
+}
+
 .example {
     font-variant-caps: all-small-caps;
     font-size: 1em!important;
@@ -40,23 +57,6 @@ code, .command, .Dyalog {
         width: 10rem !important;
         height: 1.8rem !important;
     }
-}
-
-/* Custom colors */
-:root {
-    --md-primary-fg-color: #FF6A13;
-    --md-primary-fg-color--dark: #563336;
-    --md-default-bg-color: #F8F8F8;
-    --md-code-hl-number-color: #797979;
-    --dyalog-body-text-color: #232222;
-}
-
-body {
-  color: var(--dyalog-body-text-color);
-}
-
-.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
-  color: var(--dyalog-body-text-color);
 }
 
 /* Reduce vertical table spacing, and put in a faint cell border */
