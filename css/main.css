@@ -40,7 +40,7 @@ code, .command, .Dyalog {
     font-family: APL;
 }
 .md-typeset code { 
-    font-size: 120%;
+    font-size: 1em;
     line-height: 1.2em;
     background: none!important;
  }
