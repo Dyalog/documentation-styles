@@ -170,7 +170,11 @@
 
 .md-typeset code {
 	word-break: normal !important;
-    overflow-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.md-content code {
+  padding: 0;
 }
 
 /* Reduce spacing before lists after paragraphs */
