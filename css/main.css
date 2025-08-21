@@ -19,6 +19,9 @@ body {
 .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
   color: var(--dyalog-body-text-color);
 }
+.md-typeset h1 code, .md-typeset h2 code, .md-typeset h3 code, .md-typeset h4 code {
+    font-size: inherit;
+}
 
 .example {
     font-variant-caps: all-small-caps;
