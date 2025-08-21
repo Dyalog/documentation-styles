@@ -10,6 +10,8 @@
     --md-default-bg-color: white;
     --md-code-hl-number-color: #797979;
     --dyalog-body-text-color: #232222;
+    --dyalog-brand-color-midnight: #003B5C;
+    --md-accent-fg-color: var(--dyalog-brand-color-midnight);
 }
 
 body {
@@ -18,6 +20,15 @@ body {
 
 .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
   color: var(--dyalog-body-text-color);
+}
+
+/* Table of Contents (TOC) section headings */
+.md-nav .md-nav__item--section {
+    margin-top: 1.5em;
+}
+.md-nav .md-nav__item--section > .md-nav__link {
+    color: var(--dyalog-brand-color-midnight);
+    font-size: 1.1em;
 }
 
 .example {
