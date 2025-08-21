@@ -72,6 +72,10 @@ th, td {
     text-align: left;
 }
 
+.md-typeset table th, .md-typeset table td {
+    font-size: 0.8rem;
+}
+
 /* Style the heading container for the Language Reference */
 .heading {
     display: flex;
